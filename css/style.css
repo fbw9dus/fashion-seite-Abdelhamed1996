@@ -181,10 +181,12 @@ footer{
   .container ul{
       display: flex;
       justify-content: space-around;
+      margin-right: 30px;
   }
 
   img{
       width: 90px;
       float: right;
       padding-right: 10px;
+      
   }
