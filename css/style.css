@@ -101,6 +101,10 @@ a:hover{
     letter-spacing: 10px;
     text-transform: uppercase;
 }
+.container>div>h4{
+    font-family: 'Lexend Zetta', sans-serif;
+    letter-spacing: 5px;
+}
 .container>div>p{
     padding: 15px;
     font-family: 'Lexend Zetta', sans-serif;
