@@ -1,3 +1,114 @@
+@font-face{
+    font-family: theblodfont;
+    src: url(../fonts/theboldfont/theboldfont.ttf);
+}
+
 body {
     margin: 0;
 }
+nav{
+    
+    width: 100%;
+    height: 80px;
+    background: rgb(63, 59, 59);
+    color: white;
+    
+    
+}
+nav .menu{
+    margin: 0px;
+}
+nav .first{
+    
+    padding-top: 10px;
+    float: left;
+    height: 70px;
+}
+nav .first h1{
+    line-height: 0em;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding: 10px;
+    font-family:  theblodfont;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+nav .first h3{
+    margin: 0;
+    padding-left: 7px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+.menu > li{
+    
+text-align: center;
+}
+
+.menu{
+    padding-top: 30px;
+    display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-family:  theblodfont;
+}
+a:hover{
+    border-bottom: solid 15px white;
+    transition: 0.3s;
+    color: aqua;
+    
+    
+}
+
+.container{
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/chicago-skyline-engagement_0032.jpg');
+    background-size: 100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.container>div{
+    background-color:rgba(217, 218, 159, 0.507);
+    width: 700px;
+    height:600px;
+    font-family:  theblodfont;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+.container>div>h1{
+    margin-bottom: 3px;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.container>div>h2{
+    font-size: 50px;
+    margin-top: 3px;
+    font-family: 'Lexend Zetta', sans-serif;
+    
+    text-transform: uppercase;
+}
+.container>div>p{
+    padding: 15px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.container>div>.menu>li>a{
+    border: 1px solid  black;
+    padding: 10px 40px;
+    color: black;
+}
+
+li{
+    list-style-type:none;
+}
+
