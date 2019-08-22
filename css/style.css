@@ -81,17 +81,17 @@ nav a:hover{
 .container>div{
     background-color:rgba(217, 218, 159, 0.507);
     width: 800px;
-    height:600px;
+    height:700px;
     font-family:  theblodfont;
     text-align: center;
-    color: black;
+    color: rgb(75, 48, 48);
     text-transform: uppercase;
     
 }
 
 .container>div>h1{
     margin-bottom: 3px;
-    font-size: 80px;
+    font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 20px;
 }
