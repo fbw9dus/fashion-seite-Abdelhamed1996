@@ -178,6 +178,10 @@ footer{
       font-family: 'Lexend Zetta', sans-serif;
   }
 
+  .link:hover{
+      background-color: white;
+  }
+
   .container ul{
       display: flex;
       justify-content: space-around;
